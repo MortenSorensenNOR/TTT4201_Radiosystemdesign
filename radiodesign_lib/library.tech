@@ -1,0 +1,16 @@
+<!DOCTYPE Technology>
+<Lpp_List>
+    <LPP alpha="128" fill="18" layer="boardBound" line="0" mode="2" protect="0" purpose="drawing" rgb="16755200" visible="1"/>
+    <LPP alpha="128" fill="18" layer="cond2" line="0" mode="2" protect="0" purpose="drawing" rgb="255" visible="1"/>
+    <LPP alpha="128" fill="18" layer="cond" line="0" mode="2" protect="0" purpose="drawing" rgb="16711680" visible="1"/>
+    <LPP alpha="128" fill="18" layer="cond_cond2" line="0" mode="2" protect="0" purpose="drawing" rgb="16731308" visible="1"/>
+    <LPP alpha="128" fill="18" layer="scratch" line="0" mode="2" protect="0" purpose="drawing" rgb="16777215" visible="1"/>
+    <LPP alpha="255" fill="18" layer="silk_screen2" line="0" mode="2" protect="0" purpose="drawing" rgb="16773083" visible="1"/>
+    <LPP alpha="255" fill="18" layer="silk_screen" line="0" mode="2" protect="0" purpose="drawing" rgb="16773083" visible="1"/>
+    <LPP alpha="128" fill="18" layer="silkscreenBottom" line="0" mode="2" protect="0" purpose="drawing" rgb="13027014" visible="1"/>
+    <LPP alpha="128" fill="18" layer="silkscreenTop" line="0" mode="2" protect="0" purpose="drawing" rgb="16777215" visible="1"/>
+    <LPP alpha="128" fill="18" layer="solderMaskBottom" line="0" mode="2" protect="0" purpose="drawing" rgb="3500544" visible="1"/>
+    <LPP alpha="128" fill="18" layer="solderMaskTop" line="0" mode="2" protect="0" purpose="drawing" rgb="5614080" visible="1"/>
+    <LPP alpha="128" fill="18" layer="solderPasteBottom" line="0" mode="2" protect="0" purpose="drawing" rgb="11184895" visible="1"/>
+    <LPP alpha="128" fill="18" layer="solderPasteTop" line="0" mode="2" protect="0" purpose="drawing" rgb="7895220" visible="1"/>
+</Lpp_List>

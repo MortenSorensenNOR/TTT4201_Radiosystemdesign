@@ -1,0 +1,24 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack BAL_NUM="0" BAL_TYPE="NONE" BOTTOM_OF_BOARD_INDEX="1" PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" SPECIFIED_PURPOSES="" TOP_OF_BOARD_INDEX="2">
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="millimeter"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="FR_4_Core" thick="1.065" thickunit="millimeter"/>
+        <interface BAL_NUM="0" BAL_TYPE="INHERIT" materialname="" thick="0" thickunit="micron"/>
+        <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer angle="90.0" bottomrough="" expand="1" index="0" layer="5" materialname="Copper" negative="0" pinsOnly="0" precedence="1" processRole="1" sheet="0" subtype="0" thick="-0.035" thickunit="millimeter" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="0" layer="6" materialname="Typical_solder" negative="0" pinsOnly="0" precedence="0" processRole="19" sheet="0" subtype="-1" thick="-1" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="0" layer="7" materialname="SolderMask" negative="0" pinsOnly="0" precedence="0" processRole="18" sheet="0" subtype="-1" thick="-0.01524" thickunit="millimeter" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="0" layer="8" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="20" sheet="0" subtype="-1" thick="-0.1" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="1" layer="4" materialname="Copper" negative="0" pinsOnly="0" precedence="1" processRole="1" sheet="0" subtype="0" thick="0.035" thickunit="millimeter" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="1" layer="3" materialname="Typical_solder" negative="0" pinsOnly="0" precedence="0" processRole="19" sheet="0" subtype="-1" thick="1" thickunit="mil" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="1" layer="2" materialname="SolderMask" negative="0" pinsOnly="0" precedence="0" processRole="18" sheet="0" subtype="-1" thick="0.01524" thickunit="millimeter" toprough=""/>
+        <layer angle="90.0" bottomrough="" expand="1" index="1" layer="1" materialname="" negative="0" pinsOnly="0" precedence="0" processRole="20" sheet="0" subtype="-1" thick="0.1" thickunit="mil" toprough=""/>
+    </layers>
+    <vias>
+        <via index1="0" index2="1" layer="9" materialname="PERFECT_CONDUCTOR" platingdielectricmaterial="AIR" platingenabled="0" platingthickness="" platingthicknessunit="micron" precedence="0" processRole="4" rough="" subtype="0"/>
+    </vias>
+    <substrates/>
+</SubstrateModel>

@@ -1,0 +1,29 @@
+# --- Design kits: each person installs their own copy (see README.md) ---
+designkits/*
+!designkits/README.md
+
+# --- Files ADS regenerates on open; they contain machine-specific absolute paths ---
+ADSlibconfig
+hpeesofsim.cfg
+de_sim.cfg
+dds.cfg
+CNEX.cfg
+netlist.cnex
+
+# --- Logs, locks, backups ---
+*.log
+*.cdslck*
+*~
+saved.wrkstate
+
+# --- Simulation scratch output ---
+simulation/
+cild/
+<ADS netlist>_data/
+data/*_data/
+data/dc_annotation/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini

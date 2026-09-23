@@ -1,0 +1,6 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE radiodesign_lib radiodesign_lib
+ASSIGN radiodesign_lib libMode shared
+INCLUDE designkits/Johanson_lib_v1.0/lib.defs
+INCLUDE designkits/MA_RFP_ADS_v2p7/lib.defs
+INCLUDE designkits/muRataLibWeb_C_confidential/lib.defs
