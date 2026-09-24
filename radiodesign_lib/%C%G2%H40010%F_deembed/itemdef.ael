@@ -1,2 +1,0 @@
-create_item("CG2H40010F_deembed","CG2H40010F_deembed","X",16,-1,NULL,"Component Parameters",NULL,"%43?global %;%d:%t %# %44?0%:%31?%C%:_net%c%;%;%e %b%r%8?%29?%:%30?%p %:%k%?[%1i]%;=%p %;%;%;%e%e","CG2H40010F_deembed","%t%b%r%38?%:\n%30?%s%:%k%?[%1i]%;=%s%;%;%e%e%;","",3,NULL,0,
-create_parm("Vdq","Vdq",68608,"StdFormSet",9,prm("StdForm","28")));
