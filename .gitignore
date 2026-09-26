@@ -27,3 +27,8 @@ data/dc_annotation/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# --- python_utils: generated netlists (machine-specific paths) and sim runs ---
+python_utils/runs/
+python_utils/netlists/
+__pycache__/
