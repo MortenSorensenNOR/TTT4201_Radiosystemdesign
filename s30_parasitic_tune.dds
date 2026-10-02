@@ -27,10 +27,10 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2026-10-02T19:51:13Z");
+	set(ddoId, "FileModifiedDateAndTime", "2026-10-02T20:01:53Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
-	set(ddoId, "DefaultDataset", "parasitic_tune");
+	set(ddoId, "DefaultDataset", "s30_parasitic_tune");
 // Snap/Grid Defaults 
 	set(ddoId, "GridType", 0);
 	set(ddoId, "GridOn", FALSE);
@@ -224,8 +224,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "13.09999999999998898658759571844
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6296);
-	set(markerID, "MkrReadoutRight", 8834);
-	set(markerID, "MkrReadoutBottom", 2984);
+	set(markerID, "MkrReadoutRight", 8874);
+	set(markerID, "MkrReadoutBottom", 3024);
 	set(markerID, "MkrReadoutTop", 2125);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -267,7 +267,7 @@ traceID = get_new(goId0, "Trace", "S_Z2", "X Axis", "Y Axis", FALSE);
 	set(traceID, "LineColorFamilyAutoSequenceOrder", 4);
 	_DDSobjectRestoreDensityTraceProps_(traceID, 16, 0, 20, ddsDotSymbol);
 	set(traceID, "TraceLabelOffset", 100);
-markerID = get_new(traceID, "MarkerNew", "m2", "520.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m2", "520.00000000000000000000000000000000", 1, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1152445410);
@@ -317,8 +317,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "520.0000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8739);
-	set(markerID, "MkrReadoutBottom", 3984);
+	set(markerID, "MkrReadoutRight", 8779);
+	set(markerID, "MkrReadoutBottom", 4024);
 	set(markerID, "MkrReadoutTop", 3125);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -410,8 +410,8 @@ markerID = get_new(traceID, "MarkerNew", "m3", "-200.000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8788);
-	set(markerID, "MkrReadoutBottom", 4859);
+	set(markerID, "MkrReadoutRight", 8828);
+	set(markerID, "MkrReadoutBottom", 4899);
 	set(markerID, "MkrReadoutTop", 4000);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -599,8 +599,8 @@ markerID = get_new(traceID, "MarkerNew", "m4", "60.00000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8739);
-	set(markerID, "MkrReadoutBottom", 5734);
+	set(markerID, "MkrReadoutRight", 8779);
+	set(markerID, "MkrReadoutBottom", 5774);
 	set(markerID, "MkrReadoutTop", 4875);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -873,12 +873,12 @@ goId0 = get_new(pageId, "Equation");
 	set(ddoId, "UpdateAllExpressions", TRUE);
 	set(ddoId, "EnableExpressionUpdates", TRUE);
 
-ddWinId = get_new(ddsId, "Window", 1026, 28, 1020, 1250);
+ddWinId = get_new(ddsId, "Window", 1538, 654, 508, 623);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 876061776);
-	set(ddWinId, "PageViewRect_876061776", list(2234, 8347, 8986, -47));
+	set(ddWinId, "PageViewRect_876061776", list(2234, 8426, 8986, -126));
 	set(ddWinId, "PageViewRect_16388631", list(-76, 5076, 4005, 3));
-	set(ddWinId, "Frame", list(1026, 28, 1020, 1250));
+	set(ddWinId, "Frame", list(1538, 654, 508, 623));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);

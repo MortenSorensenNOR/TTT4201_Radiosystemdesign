@@ -27,7 +27,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2026-10-02T19:52:07Z");
+	set(ddoId, "FileModifiedDateAndTime", "2026-10-02T21:39:53Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
 	set(ddoId, "DefaultDataset", "dciv_keysight_gan");
@@ -246,8 +246,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "3.000000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -3125);
-	set(markerID, "MkrReadoutRight", -1710);
-	set(markerID, "MkrReadoutBottom", 1454);
+	set(markerID, "MkrReadoutRight", -1706);
+	set(markerID, "MkrReadoutBottom", 1458);
 	set(markerID, "MkrReadoutTop", 750);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -307,8 +307,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "28.00000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -3125);
-	set(markerID, "MkrReadoutRight", -1710);
-	set(markerID, "MkrReadoutBottom", 2204);
+	set(markerID, "MkrReadoutRight", -1706);
+	set(markerID, "MkrReadoutBottom", 2208);
 	set(markerID, "MkrReadoutTop", 1500);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -433,7 +433,7 @@ goId0 = get_new(pageId, "Listing");
 	set(goId0, "TitleColor", 0);
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
-	set(axisID, "Uid", 1441853963);
+	set(axisID, "Uid", 284112064);
 	set(axisID, "Color", 104);
 	set(axisID, "GridOnOff", TRUE);
 	set(axisID, "LineThick", 7);
@@ -512,7 +512,7 @@ goId0 = get_new(pageId, "Listing");
 	set(goId0, "TitleColor", 0);
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
-	set(axisID, "Uid", 542402548);
+	set(axisID, "Uid", 362842033);
 	set(axisID, "Color", 104);
 	set(axisID, "GridOnOff", TRUE);
 	set(axisID, "LineThick", 7);
@@ -534,7 +534,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "");
 	set(axisID, "NumDigits", 3);
 axisID = get_new(goId0, "Axis", ddsXaxis, "");
 // Axis...
-	set(axisID, "Uid", 1896001065);
+	set(axisID, "Uid", 515415917);
 	set(axisID, "Color", 104);
 	set(axisID, "GridOnOff", TRUE);
 	set(axisID, "LineThick", 7);
@@ -1030,8 +1030,8 @@ markerID = get_new(traceID, "MarkerNew", "m3", "0.450000000000000288657986402540
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 11250);
-	set(markerID, "MkrReadoutRight", 12560);
-	set(markerID, "MkrReadoutBottom", -5);
+	set(markerID, "MkrReadoutRight", 12564);
+	set(markerID, "MkrReadoutBottom", -1);
 	set(markerID, "MkrReadoutTop", -375);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -4885,13 +4885,13 @@ goId0 = get_new(pageId, "Text");
 	set(ddoId, "UpdateAllExpressions", TRUE);
 	set(ddoId, "EnableExpressionUpdates", TRUE);
 
-ddWinId = get_new(ddsId, "Window", 2, 28, 2044, 1250);
+ddWinId = get_new(ddsId, "Window", 2, 654, 1020, 623);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 1425778390);
-	set(ddWinId, "PageViewRect_1425778390", list(-4213, 7648, 14097, -3131));
+	set(ddWinId, "PageViewRect_1425778390", list(-4409, 7896, 14293, -3379));
 	set(ddWinId, "PageViewRect_740524026", list(-14218, 16327, 735, 7524));
 	set(ddWinId, "PageViewRect_529160959", list(-1684, 11970, 19731, 34));
-	set(ddWinId, "Frame", list(2, 28, 2044, 1250));
+	set(ddWinId, "Frame", list(2, 654, 1020, 623));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);
