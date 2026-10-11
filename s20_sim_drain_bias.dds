@@ -27,11 +27,11 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2026-10-02T19:33:26Z");
+	set(ddoId, "FileModifiedDateAndTime", "2026-10-10T16:04:22Z");
 	set(ddoId, "FileCreatedDateAndTime", "2026-09-23T22:04:54Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
-	set(ddoId, "DefaultDataset", "sim_drain_bias");
+	set(ddoId, "DefaultDataset", "s20_sim_drain_bias");
 // Snap/Grid Defaults 
 	set(ddoId, "GridType", 0);
 	set(ddoId, "GridOn", FALSE);
@@ -102,7 +102,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
 	set(axisID, "IndepStart", 0);
-	set(axisID, "IndepStop", 8000000000);
+	set(axisID, "IndepStop", 7200000000);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -135,7 +135,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
 	set(axisID, "IndepStart", 0);
-	set(axisID, "IndepStop", 8000000000);
+	set(axisID, "IndepStop", 7200000000);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -225,8 +225,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "1000000000.000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -106750);
-	set(markerID, "MkrReadoutRight", -104204);
-	set(markerID, "MkrReadoutBottom", -95425);
+	set(markerID, "MkrReadoutRight", -104180);
+	set(markerID, "MkrReadoutBottom", -95401);
 	set(markerID, "MkrReadoutTop", -96125);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -286,8 +286,8 @@ markerID = get_new(traceID, "MarkerNew", "m3", "3800000000.000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -106250);
-	set(markerID, "MkrReadoutRight", -103704);
-	set(markerID, "MkrReadoutBottom", -96635);
+	set(markerID, "MkrReadoutRight", -103680);
+	set(markerID, "MkrReadoutBottom", -96611);
 	set(markerID, "MkrReadoutTop", -97335);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -347,8 +347,8 @@ markerID = get_new(traceID, "MarkerNew", "m4", "9860000000.000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -106250);
-	set(markerID, "MkrReadoutRight", -103659);
-	set(markerID, "MkrReadoutBottom", -97470);
+	set(markerID, "MkrReadoutRight", -103635);
+	set(markerID, "MkrReadoutBottom", -97446);
 	set(markerID, "MkrReadoutTop", -98170);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -693,8 +693,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "5480000000.000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", -100042);
-	set(markerID, "MkrReadoutRight", -98760);
-	set(markerID, "MkrReadoutBottom", -96635);
+	set(markerID, "MkrReadoutRight", -98736);
+	set(markerID, "MkrReadoutBottom", -96611);
 	set(markerID, "MkrReadoutTop", -97168);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -810,7 +810,7 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
 	set(axisID, "IndepStart", 0);
-	set(axisID, "IndepStop", 8000000000);
+	set(axisID, "IndepStop", 7200000000);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -843,7 +843,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
 	set(axisID, "IndepStart", 0);
-	set(axisID, "IndepStop", 8000000000);
+	set(axisID, "IndepStop", 7200000000);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -925,11 +925,11 @@ traceID = get_new(goId0, "Trace", "S(2,2)", "X Axis", "Y Axis", FALSE);
 	set(ddoId, "UpdateAllExpressions", TRUE);
 	set(ddoId, "EnableExpressionUpdates", TRUE);
 
-ddWinId = get_new(ddsId, "Window", 1026, 28, 1020, 1250);
+ddWinId = get_new(ddsId, "Window", 1026, 28, 2048, 1280);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 126287528);
-	set(ddWinId, "PageViewRect_126287528", list(-108501, -84676, -94694, -101856));
-	set(ddWinId, "Frame", list(1026, 28, 1020, 1250));
+	set(ddWinId, "PageViewRect_126287528", list(-106894, -91063, -92311, -99862));
+	set(ddWinId, "Frame", list(1026, 28, 2048, 1280));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);

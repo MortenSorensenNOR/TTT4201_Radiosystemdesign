@@ -27,7 +27,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2026-10-06T15:01:19Z");
+	set(ddoId, "FileModifiedDateAndTime", "2026-10-09T14:58:41Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
 	set(ddoId, "DefaultDataset", "s30_parasitic_tune");
@@ -100,8 +100,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 	set(axisID, "NumDigits", 3);
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
-	set(axisID, "IndepStart", -1000);
-	set(axisID, "IndepStop", 1000);
+	set(axisID, "IndepStart", 0);
+	set(axisID, "IndepStop", 100);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -133,8 +133,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 	set(axisID, "NumDigits", 3);
 //Polar axis...
 	set(axisID, "DisplayAllIndependentData", TRUE);
-	set(axisID, "IndepStart", -1000);
-	set(axisID, "IndepStop", 1000);
+	set(axisID, "IndepStart", 0);
+	set(axisID, "IndepStop", 100);
 //Smith chart axis...
 	set(axisID, "ImpedanceOnOff", TRUE);
 	set(axisID, "AdmittanceOnOff", FALSE);
@@ -174,7 +174,7 @@ traceID = get_new(goId0, "Trace", "S_Z1", "X Axis", "Y Axis", FALSE);
 	set(traceID, "LineColorFamilyAutoSequenceOrder", 4);
 	_DDSobjectRestoreDensityTraceProps_(traceID, 16, 0, 20, ddsDotSymbol);
 	set(traceID, "TraceLabelOffset", 100);
-markerID = get_new(traceID, "MarkerNew", "m1", "-530.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m1", "13.00000000000000000000000000000000", 8, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1279686409);
@@ -224,8 +224,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "-530.000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6296);
-	set(markerID, "MkrReadoutRight", 8826);
-	set(markerID, "MkrReadoutBottom", 2809);
+	set(markerID, "MkrReadoutRight", 8818);
+	set(markerID, "MkrReadoutBottom", 2968);
 	set(markerID, "MkrReadoutTop", 2125);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -284,10 +284,10 @@ markerID = get_new(traceID, "MarkerNew", "m5", "-1000.00000000000000000000000000
 	set(markerID, "MkrReadoutColor", 0);
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
-	set(markerID, "MkrReadoutLeft", 2421);
-	set(markerID, "MkrReadoutRight", 4951);
-	set(markerID, "MkrReadoutBottom", 432);
-	set(markerID, "MkrReadoutTop", -252);
+	set(markerID, "MkrReadoutLeft", 1500);
+	set(markerID, "MkrReadoutRight", 4022);
+	set(markerID, "MkrReadoutBottom", 218);
+	set(markerID, "MkrReadoutTop", -625);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
 	set(markerID, "MkrIndicatorType", 0);
@@ -328,7 +328,7 @@ traceID = get_new(goId0, "Trace", "S_Z2", "X Axis", "Y Axis", FALSE);
 	set(traceID, "LineColorFamilyAutoSequenceOrder", 4);
 	_DDSobjectRestoreDensityTraceProps_(traceID, 16, 0, 20, ddsDotSymbol);
 	set(traceID, "TraceLabelOffset", 100);
-markerID = get_new(traceID, "MarkerNew", "m2", "220.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m2", "220.00000000000000000000000000000000", 1, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1152445410);
@@ -378,8 +378,8 @@ markerID = get_new(traceID, "MarkerNew", "m2", "220.0000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8731);
-	set(markerID, "MkrReadoutBottom", 3809);
+	set(markerID, "MkrReadoutRight", 8723);
+	set(markerID, "MkrReadoutBottom", 3968);
 	set(markerID, "MkrReadoutTop", 3125);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -421,7 +421,7 @@ traceID = get_new(goId0, "Trace", "S_Z3", "X Axis", "Y Axis", FALSE);
 	set(traceID, "LineColorFamilyAutoSequenceOrder", 4);
 	_DDSobjectRestoreDensityTraceProps_(traceID, 16, 0, 20, ddsDotSymbol);
 	set(traceID, "TraceLabelOffset", 100);
-markerID = get_new(traceID, "MarkerNew", "m3", "-400.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m3", "2.50000000000000000000000000000000", 15, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1106752827);
@@ -471,8 +471,8 @@ markerID = get_new(traceID, "MarkerNew", "m3", "-400.000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8780);
-	set(markerID, "MkrReadoutBottom", 4684);
+	set(markerID, "MkrReadoutRight", 8723);
+	set(markerID, "MkrReadoutBottom", 4843);
 	set(markerID, "MkrReadoutTop", 4000);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -610,7 +610,7 @@ traceID = get_new(goId0, "Trace", "S_Z4", "X Axis", "Y Axis", FALSE);
 	set(traceID, "LineColorFamilyAutoSequenceOrder", 4);
 	_DDSobjectRestoreDensityTraceProps_(traceID, 16, 0, 20, ddsDotSymbol);
 	set(traceID, "TraceLabelOffset", 100);
-markerID = get_new(traceID, "MarkerNew", "m4", "50.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m4", "50.00000000000000000000000000000000", 4, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1324423793);
@@ -660,8 +660,8 @@ markerID = get_new(traceID, "MarkerNew", "m4", "50.00000000000000000000000000000
 	set(markerID, "MkrReadoutFillColor", 0);
 	set(markerID, "MkrReadoutFillPattern", -1);
 	set(markerID, "MkrReadoutLeft", 6250);
-	set(markerID, "MkrReadoutRight", 8780);
-	set(markerID, "MkrReadoutBottom", 5559);
+	set(markerID, "MkrReadoutRight", 8723);
+	set(markerID, "MkrReadoutBottom", 5718);
 	set(markerID, "MkrReadoutTop", 4875);
 	set(markerID, "MkrIndicatorColor", 0);
 	set(markerID, "MkrIndicatorSize", 6);
@@ -934,12 +934,12 @@ goId0 = get_new(pageId, "Equation");
 	set(ddoId, "UpdateAllExpressions", TRUE);
 	set(ddoId, "EnableExpressionUpdates", TRUE);
 
-ddWinId = get_new(ddsId, "Window", 1026, 28, 1020, 1250);
+ddWinId = get_new(ddsId, "Window", 1026, 654, 1020, 623);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 876061776);
-	set(ddWinId, "PageViewRect_876061776", list(423, 8522, 8622, -1671));
+	set(ddWinId, "PageViewRect_876061776", list(-285, 5073, 8375, -148));
 	set(ddWinId, "PageViewRect_16388631", list(-76, 5076, 4005, 3));
-	set(ddWinId, "Frame", list(1026, 28, 1020, 1250));
+	set(ddWinId, "Frame", list(1026, 654, 1020, 623));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);
