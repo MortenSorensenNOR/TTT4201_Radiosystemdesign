@@ -144,6 +144,23 @@ class Netlist:
             if not (m := re.match(r"SweepPlan:\s*(\S+)", s)) or m.group(1) not in plans
         ]
 
+    def remove_optim(self) -> None:
+        """Drop Optim controllers, goals and limit lines, and freeze opt{...} variables
+        at their current values, so the netlist runs as a plain simulation."""
+        drop = ("Optim:", "OptimGoal:", "SpecLimitLine:")
+        self._stmts = [
+            re.sub(r"\s+(?:no)?opt\{[^}]*\}", "", s) for s in self._stmts if not s.startswith(drop)
+        ]
+
+    def remove_analysis_sweep(self, analysis: str) -> None:
+        """Drop the sweep built into an analysis (e.g. HB's own SweepVar="rf_freq")."""
+        head = re.compile(rf"^\S+:{re.escape(analysis)}\s")
+        for i in self._top_level():
+            if head.match(self._stmts[i]):
+                self._stmts[i] = re.sub(r'\s(?:SweepVar|SweepPlan)="[^"]*"', "", self._stmts[i])
+                return
+        raise KeyError(f"no analysis {analysis!r} at top level")
+
     def sweep_lists(self, analysis: str, lists: dict[str, Sequence], index: str = "py_i") -> int:
         """Sweep several variables together, one value per point.
 

@@ -8,6 +8,8 @@ python_utils/adsenv.sh python -m adsutil.smoke_test                 # end-to-end
 ```
 
 - `adsutil/parasitic_tune.py`: the testbench, with named setters (`set_frequency`, `set_fundamental_load`, `set_harmonic_reactance`, `sweep_frequencies`) and `intrinsic_load()` for ZLi per harmonic.
+- `adsutil/alpha_map.py`: α and drain efficiency vs the 2f0/3f0 load phase at the drain pin (s30 bench, ideal bias),
+  2.4–3.4 GHz; `plot` overlays the s40 output network. Writes `results/alpha_map*.csv` and `results/alpha_map.png`.
 - `adsutil/netlist.py`: generic netlist editing (variables, sweeps).
 - `adsutil/sim.py`: runs hpeesofsim in `runs/<timestamp>-<name>/` with its own design-kit config. It never writes to the workspace.
 - `adsutil/results.py`: .ds to pandas.
