@@ -8,6 +8,7 @@
         <Dielectric electron_path="" er_imag="" er_loss="0.02" er_real="4.6" heat_capacity="" highfreq="1 THz" loss_type="1" lowfreq="1 KHz" mur_imag="" mur_real="1" name="FR_4_Core" thermal_conductivity="" thermal_conductivity_in_z="" valuefreq="1 GHz"/>
         <Dielectric electron_path="" er_imag="" er_loss="0.02" er_real="4.6" heat_capacity="" highfreq="1 THz" loss_type="1" lowfreq="1 KHz" mur_imag="" mur_real="1" name="FR_4_Prepreg" thermal_conductivity="" thermal_conductivity_in_z="" valuefreq="1 GHz"/>
         <Dielectric electron_path="" er_imag="" er_loss="" er_real="3.3" heat_capacity="" highfreq="1 THz" loss_type="1" lowfreq="1 KHz" mur_imag="" mur_real="1" name="SolderMask" thermal_conductivity="" thermal_conductivity_in_z="" valuefreq="1 GHz"/>
+        <Dielectric electron_path="" er_imag="" er_loss="" er_real="9.6" heat_capacity="1.73E+06" highfreq="1 THz" loss_type="1" lowfreq="1 KHz" mur_imag="" mur_real="1" name="Alumina" thermal_conductivity="25.25" thermal_conductivity_in_z="" valuefreq="1 GHz"/>
     </Dielectrics>
     <Semiconductors/>
     <Superconductors/>

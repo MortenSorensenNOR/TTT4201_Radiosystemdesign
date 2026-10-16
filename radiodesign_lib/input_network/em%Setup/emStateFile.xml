@@ -1,0 +1,1805 @@
+<EmSimSetup version="1.0">
+  <MainWindow version="2.2">
+    <SelectedTreeItemIndex>0</SelectedTreeItemIndex>
+    <selectedTreeItem></selectedTreeItem>
+    <simCalculationType>5</simCalculationType>
+    <cosimCalculationType>0</cosimCalculationType>
+    <CoSimulation version="2.0">
+      <cosimViewName>emCosim</cosimViewName>
+      <intermediateLibraryName>radiodesign_lib</intermediateLibraryName>
+      <intermediateCellName>input_network_emCosim</intermediateCellName>
+      <intermediateModelViewName>emModel</intermediateModelViewName>
+      <cosimStoresOnlySParamData>True</cosimStoresOnlySParamData>
+      <cosimIntermediateLayoutChoice>1</cosimIntermediateLayoutChoice>
+      <intermediateLayoutViewName>layout</intermediateLayoutViewName>
+      <cosimIncludedParameters></cosimIncludedParameters>
+      <cosimExcludedParameters></cosimExcludedParameters>
+      <cosimCreateExtractedView>0</cosimCreateExtractedView>
+      <cosimExtractedViewName>emExtracted</cosimExtractedViewName>
+      <EmModelContent version="1.0">
+        <reducedToDecreaseSize>1</reducedToDecreaseSize>
+      </EmModelContent>
+    </CoSimulation>
+    <EMComponent version="1.0">
+      <OutputEmModel version="2.1">
+        <modelName>emModel</modelName>
+        <appendText>False</appendText>
+        <useLayoutViewName>False</useLayoutViewName>
+        <useSimSetupViewName>False</useSimSetupViewName>
+        <useSimType>False</useSimType>
+        <useThisText>False</useThisText>
+        <thisText>mySuffix</thisText>
+        <autoCreateEMModel>False</autoCreateEMModel>
+        <autoUpdateEMModel>True</autoUpdateEMModel>
+        <includeSParamDataOnly>True</includeSParamDataOnly>
+        <EmModelContent version="1.0">
+          <reducedToDecreaseSize>1</reducedToDecreaseSize>
+        </EmModelContent>
+      </OutputEmModel>
+      <OutputEmSymbol version="2.0">
+        <symbolName>symbol</symbolName>
+        <symbolIsBlackBox>False</symbolIsBlackBox>
+        <sizeDefinitionType>0</sizeDefinitionType>
+        <sizeDefinitionNbrOfUnits>1</sizeDefinitionNbrOfUnits>
+        <addRefPin>False</addRefPin>
+        <autoCreateSymbol>False</autoCreateSymbol>
+      </OutputEmSymbol>
+    </EMComponent>
+    <FemOptions version="1.0">
+      <selectedOption>(:-Factory-:)</selectedOption>
+      <latestPredefinedOption></latestPredefinedOption>
+      <optionsMap/>
+      <FemOptionDef version="1.3">
+        <optionName>(:-Factory-:)</optionName>
+        <readOnlyData>False</readOnlyData>
+        <OptionsTabIndex>0</OptionsTabIndex>
+        <SubstrateTabIndex>0</SubstrateTabIndex>
+        <PreprocTabIndex>0</PreprocTabIndex>
+        <isImported>False</isImported>
+        <FemSimOptExpert version="1.1">
+          <FemSimOptExpertMap/>
+          <FemSimOptExpertEnabledMap/>
+        </FemSimOptExpert>
+        <FemSimOptMeshGlobal version="2.4">
+          <DeltaError>0.02</DeltaError>
+          <MinNbAdaptivePasses>2</MinNbAdaptivePasses>
+          <MaxNbAdaptivePasses>15</MaxNbAdaptivePasses>
+          <RefineAtSpecificFreq>False</RefineAtSpecificFreq>
+          <SpecificFrequency></SpecificFrequency>
+          <SpecificFreqUnit>3</SpecificFreqUnit>
+          <RefinementStrategy>0</RefinementStrategy>
+          <MaxRefineFrequency></MaxRefineFrequency>
+          <RefineFreqUnit>3</RefineFreqUnit>
+          <NbBondwireSegments>4</NbBondwireSegments>
+          <NbConsecutivePassesRequired>1</NbConsecutivePassesRequired>
+          <TargetMeshGrowth>25</TargetMeshGrowth>
+          <TargetMeshSizeType>0</TargetMeshSizeType>
+          <UseInitialTargetMeshSize>True</UseInitialTargetMeshSize>
+          <InitialTargetMeshSize>100</InitialTargetMeshSize>
+          <InitialTargetMeshSizeUnit>2</InitialTargetMeshSizeUnit>
+          <UseMemoryLimit>False</UseMemoryLimit>
+          <MemoryLimit>0</MemoryLimit>
+          <MemoryLimitUnit>0</MemoryLimitUnit>
+          <UseInitialMinimalMeshSize>False</UseInitialMinimalMeshSize>
+          <InitialMinimalMeshSize>0.001</InitialMinimalMeshSize>
+          <InitialMinimalMeshSizeUnit>2</InitialMinimalMeshSizeUnit>
+          <ConductorEdgeMeshLength>0</ConductorEdgeMeshLength>
+          <ConductorEdgeMeshLengthUnit>2</ConductorEdgeMeshLengthUnit>
+          <ConductorVertexMeshLength>0</ConductorVertexMeshLength>
+          <ConductorVertexMeshLengthUnit>2</ConductorVertexMeshLengthUnit>
+          <AutoOpenMeshConvergencePlot>True</AutoOpenMeshConvergencePlot>
+          <autoConductorMesh>False</autoConductorMesh>
+          <mergeObjSameMaterial>True</mergeObjSameMaterial>
+          <afterConvergenceSolveFinestMesh>False</afterConvergenceSolveFinestMesh>
+          <autoConductorEdgeMeshing>True</autoConductorEdgeMeshing>
+          <autoConductorVertexMeshing>True</autoConductorVertexMeshing>
+          <autoConductorEdgeMeshingValue>0.2</autoConductorEdgeMeshingValue>
+          <autoConductorVertexMeshingValue>0.06</autoConductorVertexMeshingValue>
+          <MeshTabIndex>0</MeshTabIndex>
+          <InitialMeshTabIndex>0</InitialMeshTabIndex>
+          <VertexMeshLength>0</VertexMeshLength>
+          <VertexMeshLengthUnit>2</VertexMeshLengthUnit>
+          <EdgeMeshLength>0</EdgeMeshLength>
+          <EdgeMeshLengthUnit>2</EdgeMeshLengthUnit>
+          <SurfaceMeshLength>0</SurfaceMeshLength>
+          <SurfaceMeshLengthUnit>2</SurfaceMeshLengthUnit>
+          <FemSimOptMeshGlobalMap/>
+          <FemSimOptMeshLayerSpec version="1.0">
+            <FemSimOptMeshLayerSpecMap/>
+          </FemSimOptMeshLayerSpec>
+        </FemSimOptMeshGlobal>
+        <FemSimOptSimulation version="2.8">
+          <MatrixSolveMethod>2</MatrixSolveMethod>
+          <BasisFunctionsOrder>2</BasisFunctionsOrder>
+          <MaximumNumberOfIterations>500</MaximumNumberOfIterations>
+          <ToleranceIterativeSolver>1e-05</ToleranceIterativeSolver>
+          <FemReuseFiles>False</FemReuseFiles>
+          <FemUseModalTmlPortSolver>False</FemUseModalTmlPortSolver>
+        </FemSimOptSimulation>
+        <FemSimOptSubstrateAdvanced version="1.0">
+          <PortLateralScale>3</PortLateralScale>
+          <PortVerticalScale>3</PortVerticalScale>
+          <BoundaryPlaneFactor>4</BoundaryPlaneFactor>
+        </FemSimOptSubstrateAdvanced>
+        <FemSimOptSubstrateGlobal version="1.3">
+          <MetalExpansion>0</MetalExpansion>
+          <ModelTypeForMetals>0</ModelTypeForMetals>
+          <AutomaticOutlineType>False</AutomaticOutlineType>
+          <SubstrateLateralExtensionValue>3.125</SubstrateLateralExtensionValue>
+          <SubstrateLateralExtensionUnit>2</SubstrateLateralExtensionUnit>
+          <SubstrateVerticalExtensionValue>5</SubstrateVerticalExtensionValue>
+          <SubstrateVerticalExtensionUnit>2</SubstrateVerticalExtensionUnit>
+          <SubstrateWallBoundary>0</SubstrateWallBoundary>
+          <MergeAdjacentLayers>True</MergeAdjacentLayers>
+          <simTempValue>25</simTempValue>
+          <simTempUnit>0</simTempUnit>
+        </FemSimOptSubstrateGlobal>
+        <FemSimOptSubstrateLayerSpec version="1.0">
+          <FemSimOptSubstrateLayerSpecMap/>
+        </FemSimOptSubstrateLayerSpec>
+        <MomSimOptDescription version="1.0">
+          <description>All simulation options are initialized and ready for simulation.</description>
+        </MomSimOptDescription>
+        <SimOptPreproc version="1.3">
+          <HealLayout>True</HealLayout>
+          <AutoDetermine>True</AutoDetermine>
+          <SnapDistance>0</SnapDistance>
+          <SnapDistanceUnit>2</SnapDistanceUnit>
+          <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
+          <SimplifyLayout>True</SimplifyLayout>
+          <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
+          <SimplifyLayoutDisplacementUnit>8</SimplifyLayoutDisplacementUnit>
+          <SimplifyLayoutShrinkage>7.6</SimplifyLayoutShrinkage>
+          <DiffConstraintForVias>False</DiffConstraintForVias>
+          <DiffConstraintForViasDisplacement>1</DiffConstraintForViasDisplacement>
+          <DiffConstraintForViasDisplacementUnit>8</DiffConstraintForViasDisplacementUnit>
+          <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
+          <NeverChangeLines>False</NeverChangeLines>
+          <NeverChangeLinesLength>0</NeverChangeLinesLength>
+          <NeverChangeLinesLengthUnit>2</NeverChangeLinesLengthUnit>
+          <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
+          <layoutScaleEnabled>False</layoutScaleEnabled>
+          <layoutScaleFactor>1</layoutScaleFactor>
+          <SavePreprocMsgAsDRC>True</SavePreprocMsgAsDRC>
+          <SavePreprocMsgAsDRCJobName>EmPpMsgs</SavePreprocMsgAsDRCJobName>
+          <SavePreprocMsgAsDRCDRCLayer>255</SavePreprocMsgAsDRCDRCLayer>
+          <ignorePurposes>False</ignorePurposes>
+          <purposesToIgnore>dummy dummy2</purposesToIgnore>
+        </SimOptPreproc>
+        <SimOptPreprocLayerSpec version="1.0">
+          <typeTabIndex>0</typeTabIndex>
+          <SimOptPreprocLayerSpecStrip version="1.0">
+            <SimOptPreprocLayerSpecStripMap/>
+          </SimOptPreprocLayerSpecStrip>
+          <SimOptPreprocLayerSpecVia version="1.0">
+            <SimOptPreprocLayerSpecViaMap/>
+          </SimOptPreprocLayerSpecVia>
+        </SimOptPreprocLayerSpec>
+        <SimOptPreprocPatterns version="1.0">
+          <SimOptMetalFill version="1.0">
+            <metalFillInputDef>0</metalFillInputDef>
+            <metalFillInputValue>0</metalFillInputValue>
+            <metalFillInputValueUnits>2</metalFillInputValueUnits>
+            <metalFillModel>0</metalFillModel>
+          </SimOptMetalFill>
+          <SimOptViaSimp version="1.0">
+            <mergeStandardOaViaArraysFlag>False</mergeStandardOaViaArraysFlag>
+            <mergeViaShapesFlag>False</mergeViaShapesFlag>
+            <mergeViaType>0</mergeViaType>
+            <mergeViaMethod>17</mergeViaMethod>
+            <mergeViaSpace>3</mergeViaSpace>
+            <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
+            <mergeViaArrayDim>0</mergeViaArrayDim>
+            <mergeViaShrink>0</mergeViaShrink>
+            <mergeViaShrinkUnit>2</mergeViaShrinkUnit>
+          </SimOptViaSimp>
+        </SimOptPreprocPatterns>
+      </FemOptionDef>
+    </FemOptions>
+    <FemSimReuseVisualization version="2.0">
+      <ReuseFiles>False</ReuseFiles>
+      <SaveFieldsType>2</SaveFieldsType>
+    </FemSimReuseVisualization>
+    <MomLayout version="1.0">
+      <workspaceText>/home/morten/dev/radiodesign</workspaceText>
+      <libraryText>radiodesign_lib</libraryText>
+      <cellText>input_network</cellText>
+      <viewText>layout</viewText>
+    </MomLayout>
+    <MomOptions version="1.0">
+      <selectedOption>(:-Factory-:)</selectedOption>
+      <latestPredefinedOption></latestPredefinedOption>
+      <optionsMap/>
+      <MomOptionDef version="1.2">
+        <optionName>(:-Factory-:)</optionName>
+        <readOnlyData>False</readOnlyData>
+        <OptionsTabIndex>0</OptionsTabIndex>
+        <SubstrateTabIndex>0</SubstrateTabIndex>
+        <MeshTabIndex>0</MeshTabIndex>
+        <PreprocTabIndex>0</PreprocTabIndex>
+        <isImported>False</isImported>
+        <MomSimOptDescription version="1.0">
+          <description>All simulation options are initialized and ready for simulation.</description>
+        </MomSimOptDescription>
+        <MomSimOptExpert version="1.1">
+          <MomSimOptExpertMap/>
+          <MomSimOptExpertEnabledMap/>
+        </MomSimOptExpert>
+        <MomSimOptMeshGlobal version="1.3">
+          <MeshDensityMaxCellsizeEnabled>False</MeshDensityMaxCellsizeEnabled>
+          <MeshDensityMaxCellsize>0</MeshDensityMaxCellsize>
+          <MeshDensityMaxCellsizeUnit>2</MeshDensityMaxCellsizeUnit>
+          <MeshDensityCpW>20</MeshDensityCpW>
+          <MeshDensityCpWHighestSimFreq>True</MeshDensityCpWHighestSimFreq>
+          <MeshDensityCpWFreq>0</MeshDensityCpWFreq>
+          <MeshDensityCpWFreqUnit>3</MeshDensityCpWFreqUnit>
+          <EdgeMeshEnabled>False</EdgeMeshEnabled>
+          <EdgeMeshAutoDetermine>True</EdgeMeshAutoDetermine>
+          <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+          <EdgeMeshEdgeWidthUnit>2</EdgeMeshEdgeWidthUnit>
+          <TLMeshEnabled>False</TLMeshEnabled>
+          <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+          <MeshReductionEnabled>True</MeshReductionEnabled>
+          <ThinLayerOverlapExtractionEnabled>True</ThinLayerOverlapExtractionEnabled>
+          <ThinLayerOverlapExtractionType>1</ThinLayerOverlapExtractionType>
+        </MomSimOptMeshGlobal>
+        <MomSimOptMeshLayerSpec version="1.0">
+          <MomSimOptMeshLayerSpecMap/>
+        </MomSimOptMeshLayerSpec>
+        <MomSimOptMeshNetSpec version="1.0">
+          <MomSimOptMeshNetSpecMap>
+            <keyName>DC_gate</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>DC_gate</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__10</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__10</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__11</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__11</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__12</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__12</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__14</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__14</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__16</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__16</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__18</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__18</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__19</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__19</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__20</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__20</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__21</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__21</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__22</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__22</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__23</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__23</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__24</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__24</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__26</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__26</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__27</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__27</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__29</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__29</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__8</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__8</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>N__9</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>N__9</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>RF_gate</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>RF_gate</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+            <keyName>RF_in</keyName>
+            <MomSimOptMeshNetSpecMapData version="1.0">
+              <netName>RF_in</netName>
+              <MeshDensityType>0</MeshDensityType>
+              <MeshDensity>0</MeshDensity>
+              <MeshDensityUnit></MeshDensityUnit>
+              <EdgeMeshType>0</EdgeMeshType>
+              <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
+              <EdgeMeshEdgeWidthUnit></EdgeMeshEdgeWidthUnit>
+              <TLMeshType>0</TLMeshType>
+              <TLMeshCellsInWidth>0</TLMeshCellsInWidth>
+            </MomSimOptMeshNetSpecMapData>
+          </MomSimOptMeshNetSpecMap>
+        </MomSimOptMeshNetSpec>
+        <MomSimOptMeshShape version="1.0"/>
+        <MomSimOptSimulation version="1.6">
+          <MatrixSolveMethod>0</MatrixSolveMethod>
+          <CompressionLevel>0</CompressionLevel>
+          <PortSolverEnabled>True</PortSolverEnabled>
+          <MomReuseFiles>False</MomReuseFiles>
+        </MomSimOptSimulation>
+        <MomSimOptSubstrateGlobal version="1.2">
+          <MetalExpansion>0</MetalExpansion>
+          <modelTypeForCurrentsThickConductor>1</modelTypeForCurrentsThickConductor>
+          <modelTypeForCurrentsVia>3</modelTypeForCurrentsVia>
+          <simTempValue>25</simTempValue>
+          <simTempUnit>0</simTempUnit>
+          <WireViaOptions version="1.0">
+            <removeViaOutline>True</removeViaOutline>
+            <removeUnconnectedPads>True</removeUnconnectedPads>
+            <keepEndPads>True</keepEndPads>
+            <maxEndPadRadius>3</maxEndPadRadius>
+            <maxEndPadRadiusUnit>8</maxEndPadRadiusUnit>
+            <removeAntipads>True</removeAntipads>
+            <removeAntipadsRadius>5</removeAntipadsRadius>
+            <removeAntipadsRadiusUnit>8</removeAntipadsRadiusUnit>
+            <removeThermal>True</removeThermal>
+            <removeThermalRadius>5</removeThermalRadius>
+            <removeThermalRadiusUnit>8</removeThermalRadiusUnit>
+          </WireViaOptions>
+        </MomSimOptSubstrateGlobal>
+        <MomSimOptSubstrateLayerSpec version="1.0">
+          <MomSimOptSubstrateLayerSpecMap/>
+        </MomSimOptSubstrateLayerSpec>
+        <MomSimOptSubstrateNetSpec version="1.0">
+          <MomSimOptSubstrateNetSpecMap>
+            <keyName>DC_gate</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>DC_gate</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__10</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__10</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__11</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__11</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__12</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__12</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__14</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__14</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__16</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__16</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__18</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__18</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__19</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__19</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__20</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__20</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__21</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__21</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__22</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__22</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__23</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__23</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__24</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__24</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__26</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__26</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__27</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__27</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__29</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__29</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__8</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__8</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>N__9</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>N__9</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>RF_gate</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>RF_gate</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+            <keyName>RF_in</keyName>
+            <MomSimOptSubstrateNetSpecMapData version="1.0">
+              <netName>RF_in</netName>
+              <MetalExpansion>0</MetalExpansion>
+              <ModelTypeForCurrentsThickConductor>0</ModelTypeForCurrentsThickConductor>
+              <ModelTypeForCurrentsVia>0</ModelTypeForCurrentsVia>
+            </MomSimOptSubstrateNetSpecMapData>
+          </MomSimOptSubstrateNetSpecMap>
+        </MomSimOptSubstrateNetSpec>
+        <SimOptPreproc version="1.3">
+          <HealLayout>True</HealLayout>
+          <AutoDetermine>True</AutoDetermine>
+          <SnapDistance>0</SnapDistance>
+          <SnapDistanceUnit>2</SnapDistanceUnit>
+          <MergeShapesTouchingEachOther>True</MergeShapesTouchingEachOther>
+          <SimplifyLayout>True</SimplifyLayout>
+          <SimplifyLayoutDisplacement>1</SimplifyLayoutDisplacement>
+          <SimplifyLayoutDisplacementUnit>8</SimplifyLayoutDisplacementUnit>
+          <SimplifyLayoutShrinkage>7.6</SimplifyLayoutShrinkage>
+          <DiffConstraintForVias>False</DiffConstraintForVias>
+          <DiffConstraintForViasDisplacement>1</DiffConstraintForViasDisplacement>
+          <DiffConstraintForViasDisplacementUnit>8</DiffConstraintForViasDisplacementUnit>
+          <DiffConstraintForViasShrinkage>7.6</DiffConstraintForViasShrinkage>
+          <NeverChangeLines>False</NeverChangeLines>
+          <NeverChangeLinesLength>0</NeverChangeLinesLength>
+          <NeverChangeLinesLengthUnit>2</NeverChangeLinesLengthUnit>
+          <generateReplaceShapesDerivedLayers>True</generateReplaceShapesDerivedLayers>
+          <layoutScaleEnabled>False</layoutScaleEnabled>
+          <layoutScaleFactor>1</layoutScaleFactor>
+          <SavePreprocMsgAsDRC>True</SavePreprocMsgAsDRC>
+          <SavePreprocMsgAsDRCJobName>EmPpMsgs</SavePreprocMsgAsDRCJobName>
+          <SavePreprocMsgAsDRCDRCLayer>255</SavePreprocMsgAsDRCDRCLayer>
+          <ignorePurposes>False</ignorePurposes>
+          <purposesToIgnore>dummy dummy2</purposesToIgnore>
+        </SimOptPreproc>
+        <SimOptPreprocLayerSpec version="1.0">
+          <typeTabIndex>0</typeTabIndex>
+          <SimOptPreprocLayerSpecStrip version="1.0">
+            <SimOptPreprocLayerSpecStripMap/>
+          </SimOptPreprocLayerSpecStrip>
+          <SimOptPreprocLayerSpecVia version="1.0">
+            <SimOptPreprocLayerSpecViaMap/>
+          </SimOptPreprocLayerSpecVia>
+        </SimOptPreprocLayerSpec>
+        <SimOptPreprocPatterns version="1.0">
+          <SimOptMetalFill version="1.0">
+            <metalFillInputDef>0</metalFillInputDef>
+            <metalFillInputValue>0</metalFillInputValue>
+            <metalFillInputValueUnits>2</metalFillInputValueUnits>
+            <metalFillModel>0</metalFillModel>
+          </SimOptMetalFill>
+          <SimOptViaSimp version="1.0">
+            <mergeStandardOaViaArraysFlag>False</mergeStandardOaViaArraysFlag>
+            <mergeViaShapesFlag>False</mergeViaShapesFlag>
+            <mergeViaType>0</mergeViaType>
+            <mergeViaMethod>17</mergeViaMethod>
+            <mergeViaSpace>3</mergeViaSpace>
+            <mergeViaSpaceUnit>8</mergeViaSpaceUnit>
+            <mergeViaArrayDim>0</mergeViaArrayDim>
+            <mergeViaShrink>0</mergeViaShrink>
+            <mergeViaShrinkUnit>2</mergeViaShrinkUnit>
+          </SimOptViaSimp>
+        </SimOptPreprocPatterns>
+      </MomOptionDef>
+    </MomOptions>
+    <MomSimDataset version="2.0">
+      <dataset_useCellName>True</dataset_useCellName>
+      <givenDatasetName>input_network</givenDatasetName>
+      <addDecoration>True</addDecoration>
+      <dds_useCellName>True</dds_useCellName>
+      <givenDdsName>input_network</givenDdsName>
+      <useSimSetupViewName>False</useSimSetupViewName>
+      <useSimType>True</useSimType>
+      <useSimOptionsName>False</useSimOptionsName>
+      <useThisText>False</useThisText>
+      <thisText>mySuffix</thisText>
+      <autoselectTemplate>True</autoselectTemplate>
+      <templateName>S_Nport_P.ddt</templateName>
+      <writeDataset>True</writeDataset>
+      <openDisplay>True</openDisplay>
+    </MomSimDataset>
+    <MomSimFreqTable version="1.0">
+      <freqPlanMap>
+        <keyName>1</keyName>
+        <MomSimFreqTableDef version="1.0">
+          <numFreq>1</numFreq>
+          <typeFreq>0</typeFreq>
+          <startFreq>0</startFreq>
+          <stopFreq>10</stopFreq>
+          <ptsFreq>50 (max)</ptsFreq>
+          <stepFreq>-1</stepFreq>
+          <enableFreq>True</enableFreq>
+          <startFreqUnit>GHz</startFreqUnit>
+          <stopFreqUnit>GHz</stopFreqUnit>
+          <stepFreqUnit></stepFreqUnit>
+          <swData>-1</swData>
+          <trData>-1</trData>
+          <tfData>-1</tfData>
+          <rpData>-1</rpData>
+          <swUnit>0</swUnit>
+          <trUnit>0</trUnit>
+          <tfUnit>0</tfUnit>
+          <rpUnit>0</rpUnit>
+        </MomSimFreqTableDef>
+      </freqPlanMap>
+    </MomSimFreqTable>
+    <MomSimReuseVisualization version="2.0">
+      <reusePreviousResults>False</reusePreviousResults>
+      <saveCurrentsInFile>1</saveCurrentsInFile>
+    </MomSimReuseVisualization>
+    <MomSubstrate version="2.0">
+      <alternateSubstrate>False</alternateSubstrate>
+      <libLtdName></libLtdName>
+      <libSubstName></libSubstName>
+      <freeLtdMap/>
+    </MomSubstrate>
+    <Notes version="1.0">
+      <noteText></noteText>
+    </Notes>
+    <OutputPlan version="1.0">
+      <createDatasetForCosim>False</createDatasetForCosim>
+      <writeDataset>True</writeDataset>
+      <freqPlanForOutputMap>
+        <keyName>currents</keyName>
+        <FreqPlanForOutput version="1.0">
+          <freqPlanTypeName>currents</freqPlanTypeName>
+          <saveFreqPlanType>1</saveFreqPlanType>
+        </FreqPlanForOutput>
+        <keyName>fields</keyName>
+        <FreqPlanForOutput version="1.0">
+          <freqPlanTypeName>fields</freqPlanTypeName>
+          <saveFreqPlanType>1</saveFreqPlanType>
+        </FreqPlanForOutput>
+      </freqPlanForOutputMap>
+      <FreqPlanForOutput version="1.0">
+        <freqPlanTypeName></freqPlanTypeName>
+        <saveFreqPlanType>1</saveFreqPlanType>
+      </FreqPlanForOutput>
+      <SimDataDisplay version="1.0">
+        <dds_useCellName>True</dds_useCellName>
+        <dds_givenName>input_network</dds_givenName>
+        <openDisplay>True</openDisplay>
+        <autoselectTemplate>True</autoselectTemplate>
+        <templateName>S_Nport_P.ddt</templateName>
+      </SimDataDisplay>
+      <SimDataset version="1.0">
+        <ds_useCellName>True</ds_useCellName>
+        <ds_givenName>input_network</ds_givenName>
+        <ds_addDecoration>True</ds_addDecoration>
+        <ds_useSimSetupViewName>False</ds_useSimSetupViewName>
+        <ds_useSimType>True</ds_useSimType>
+        <ds_useSimOptionsName>False</ds_useSimOptionsName>
+        <ds_useThisText>False</ds_useThisText>
+        <ds_thisText>mySuffix</ds_thisText>
+      </SimDataset>
+    </OutputPlan>
+    <Partitioning version="1.1">
+      <preferCircuitPartitioning>False</preferCircuitPartitioning>
+      <requiresCosimulation>False</requiresCosimulation>
+      <definedBy>0</definedBy>
+      <topLibCellView>radiodesign_lib:input_network:layout</topLibCellView>
+      <forcedEmOnly>False</forcedEmOnly>
+      <policySwitchList></policySwitchList>
+      <autoZoomInLayout>False</autoZoomInLayout>
+      <autoCenterInLayout>False</autoCenterInLayout>
+      <autoSelectInLayout>False</autoSelectInLayout>
+      <cellDefs>
+        <keyName>ads_rflib:C</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_rflib:L</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_rflib:R</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MCROS</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MCURVE</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MGAP</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MLIN</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MLOC</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MTAPER</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:MTEE_ADS</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>ads_tlines:VIAFC</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>muRataLibWeb_C:GRM18</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>radiodesign_lib:CapR14S</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+        <keyName>radiodesign_lib:gate_bias</keyName>
+        <PartitionCellDef version="1.0">
+          <definedBy>0</definedBy>
+          <offeringMap>
+            <keyName>circuit</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>circuit</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>4</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+            <keyName>em</keyName>
+            <PartitionItem version="1.0">
+              <partitionName>em</partitionName>
+              <definedBy>0</definedBy>
+              <PartitionAction version="1.0">
+                <definedBy>0</definedBy>
+                <decision>3</decision>
+                <viewOverride></viewOverride>
+                <viewOverrideType></viewOverrideType>
+              </PartitionAction>
+            </PartitionItem>
+          </offeringMap>
+        </PartitionCellDef>
+      </cellDefs>
+      <instDefs>
+        <keyName>radiodesign_lib:CapR14S:layout:C10</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:C:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:CapR14S:layout:C7</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:C:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:CapR14S:layout:C9</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:C:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:CapR14S:layout:L1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:L:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:C8</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>muRataLibWeb_C:GRM18:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:C9</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>muRataLibWeb_C:GRM18:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Cros1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCROS:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Cros4</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCROS:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Curve1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCURVE:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Curve2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCURVE:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Gap10</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MGAP:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Gap9</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MGAP:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:R1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:R:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL12</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL14</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL15</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL16</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL17</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL18</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL4</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL5</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:TL7</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:Taper1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MTAPER:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V13</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V17</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V18</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V19</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V28</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V29</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V30</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:V31</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:VIAFC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:X7</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>radiodesign_lib:CapR14S:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:gate_bias:layout:X8</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>radiodesign_lib:CapR14S:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Cros2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCROS:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Curve1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCURVE:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Curve2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MCURVE:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Gap10</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MGAP:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Gap9</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MGAP:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:R2</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>66</definedBy>
+          <libCellView>ads_rflib:R:layout</libCellView>
+          <selectedCosimOffering>&lt;no EM simulation support></selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL1</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLOC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL10</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLOC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL11</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL3</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL4</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL5</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL6</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL7</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL8</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLOC:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:TL9</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MLIN:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Tee3</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MTEE_ADS:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:Tee4</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>ads_tlines:MTEE_ADS:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:X3</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>radiodesign_lib:CapR14S:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:X4</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>radiodesign_lib:gate_bias:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+        <keyName>radiodesign_lib:input_network:layout:X5</keyName>
+        <PartitionInstDef version="1.1">
+          <definedBy>34</definedBy>
+          <libCellView>radiodesign_lib:CapR14S:layout</libCellView>
+          <selectedCosimOffering>em</selectedCosimOffering>
+          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
+          <isEmPrimitive>False</isEmPrimitive>
+        </PartitionInstDef>
+      </instDefs>
+    </Partitioning>
+    <PortEditorDialog version="1.1">
+      <autoSelect>True</autoSelect>
+      <autoCenter>True</autoCenter>
+      <autoZoom>False</autoZoom>
+      <hideConnectedPins>False</hideConnectedPins>
+      <dataScope>0</dataScope>
+      <PinView version="1.1">
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Pins>
+          <Pin version="1.1">
+            <pinName>DC_gate</pinName>
+            <netName>DC_gate</netName>
+            <pinNum>1</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.0049264:-0.0490044</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>RF_gate</pinName>
+            <netName>RF_gate</netName>
+            <pinNum>2</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.0136026:-0.0764071</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>RF_in</pinName>
+            <netName>RF_in</netName>
+            <pinNum>3</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>-0.0041732:-0.0764071</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+        </Pins>
+      </PinView>
+      <PortView version="1.2">
+        <portCalibrationTypeOverride></portCalibrationTypeOverride>
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Ports>
+          <Port version="1.3">
+            <portNum>1</portNum>
+            <portName>DC_gate</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>DC_gate</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>2</portNum>
+            <portName>RF_gate</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>RF_gate</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>3</portNum>
+            <portName>RF_in</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>Auto</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>RF_in</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+        </Ports>
+      </PortView>
+    </PortEditorDialog>
+    <SimSetupOverview version="2.0">
+      <setupType>0</setupType>
+      <simulator>0</simulator>
+      <overview>Not set yet.
+</overview>
+    </SimSetupOverview>
+    <SimulationResources2 version="1.0">
+      <resourceType>LocalRemote</resourceType>
+      <DistributedResources2 version="1.1">
+        <parallelJobsForFreqSweep>1</parallelJobsForFreqSweep>
+        <host>Local</host>
+        <queue>- needs refresh -</queue>
+        <submitUserEnabled>False</submitUserEnabled>
+        <submitUser></submitUser>
+        <emailNotificationEnabled>False</emailNotificationEnabled>
+        <emailNotification></emailNotification>
+        <jobNameEnabled>False</jobNameEnabled>
+        <jobName></jobName>
+        <shellCmdAtFinishEnabled>False</shellCmdAtFinishEnabled>
+        <shellCmdAtFinish></shellCmdAtFinish>
+        <resourceStrEnabled>False</resourceStrEnabled>
+        <resourceStr></resourceStr>
+        <resourceStrJsonEnabled>False</resourceStrJsonEnabled>
+        <resourceStrJson></resourceStrJson>
+        <exportEnvVarEnabled>False</exportEnvVarEnabled>
+        <exportEnvVar></exportEnvVar>
+        <startType>Now</startType>
+        <startAtTimeValue></startAtTimeValue>
+        <startAfterJobsValue></startAfterJobsValue>
+        <expireType>Never</expireType>
+        <expireAtOrAfterValue></expireAtOrAfterValue>
+        <NumberOfThreads version="1.0">
+          <autoDetermine>True</autoDetermine>
+          <numberOfThreads>0</numberOfThreads>
+        </NumberOfThreads>
+        <ProcessPriority version="1.0">
+          <priority>Normal</priority>
+        </ProcessPriority>
+        <SimulationDirectory version="1.0">
+          <sharedLocal>True</sharedLocal>
+          <customPath></customPath>
+          <autoCreateSubDirPerJob>True</autoCreateSubDirPerJob>
+        </SimulationDirectory>
+      </DistributedResources2>
+      <EEsofPvmResources2 version="1.1">
+        <simulationHost>Local</simulationHost>
+        <parallelJobsForFreqSweep>1</parallelJobsForFreqSweep>
+        <queueNameEdit>queue</queueNameEdit>
+        <autoQueueCheckbox>True</autoQueueCheckbox>
+        <queueSimGroupbox>False</queueSimGroupbox>
+        <NumberOfThreads version="1.0">
+          <autoDetermine>True</autoDetermine>
+          <numberOfThreads>0</numberOfThreads>
+        </NumberOfThreads>
+        <ProcessPriority version="1.0">
+          <priority>Normal</priority>
+        </ProcessPriority>
+        <SimulationDirectory version="1.0">
+          <sharedLocal>True</sharedLocal>
+          <customPath></customPath>
+          <autoCreateSubDirPerJob>True</autoCreateSubDirPerJob>
+        </SimulationDirectory>
+      </EEsofPvmResources2>
+    </SimulationResources2>
+  </MainWindow>
+</EmSimSetup>

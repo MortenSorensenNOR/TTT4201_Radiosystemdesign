@@ -5,7 +5,7 @@ pathLayerName default
 textFontName Roboto
 textPoint 12
 textJustification 9
-textAngle 0.000000
+textAngle -90.000000
 textAbsolute 0
 instNameLayer 1
 instIDLayer 1
@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 3.000000
 miterVertexLength 0.250000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 3
 selectColor 99

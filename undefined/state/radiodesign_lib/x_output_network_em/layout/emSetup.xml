@@ -1,0 +1,130 @@
+<EmSimSetup version="1.0">
+  <PortMain version="1.0">
+    <MomLayout version="1.0">
+      <workspaceText>undefined</workspaceText>
+      <libraryText>radiodesign_lib</libraryText>
+      <cellText>x_output_network_em</cellText>
+      <viewText>layout</viewText>
+    </MomLayout>
+    <PortEditorDialog version="1.1">
+      <autoSelect>True</autoSelect>
+      <autoCenter>True</autoCenter>
+      <autoZoom>False</autoZoom>
+      <hideConnectedPins>False</hideConnectedPins>
+      <dataScope>0</dataScope>
+      <PinView version="1.1">
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Pins>
+          <Pin version="1.1">
+            <pinName>DC_drain</pinName>
+            <netName>DC_drain</netName>
+            <pinNum>1</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>-0.0018304:0.0155264</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>RF_drain</pinName>
+            <netName>RF_drain</netName>
+            <pinNum>2</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>-0.0026743:0.0029336</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+          <Pin version="1.1">
+            <pinName>RF_out</pinName>
+            <netName>RF_out</netName>
+            <pinNum>3</pinNum>
+            <toolInfo/>
+            <compInfo/>
+            <shapes>
+              <PinShapeDef version="1.0">
+                <layerNum>4</layerNum>
+                <purposeNum>-1</purposeNum>
+                <layerIdName>cond:drawing</layerIdName>
+                <shapeType>point</shapeType>
+                <points>
+                  <stdItem>0.0339638:0.0029336</stdItem>
+                </points>
+              </PinShapeDef>
+            </shapes>
+            <deltaGapInfo/>
+          </Pin>
+        </Pins>
+      </PinView>
+      <PortView version="1.2">
+        <portCalibrationTypeOverride></portCalibrationTypeOverride>
+        <isSnapshotForInfoOnly>True</isSnapshotForInfoOnly>
+        <Ports>
+          <Port version="1.3">
+            <portNum>1</portNum>
+            <portName>DC_drain</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>TML</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>DC_drain</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>2</portNum>
+            <portName>RF_drain</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>TML (zero length)</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>RF_drain</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+          <Port version="1.3">
+            <portNum>3</portNum>
+            <portName>RF_out</portName>
+            <refImpedance>50:0</refImpedance>
+            <feedType>TML</feedType>
+            <refoffset>0</refoffset>
+            <termType>2</termType>
+            <gndLayer></gndLayer>
+            <PlusPinNames>
+              <stdItem>RF_out</stdItem>
+            </PlusPinNames>
+            <MinusPinNames>
+              <stdItem>::__GND__</stdItem>
+            </MinusPinNames>
+          </Port>
+        </Ports>
+      </PortView>
+    </PortEditorDialog>
+  </PortMain>
+</EmSimSetup>
