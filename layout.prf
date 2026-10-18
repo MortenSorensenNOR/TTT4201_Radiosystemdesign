@@ -5,7 +5,7 @@ pathLayerName default
 textFontName Roboto
 textPoint 12
 textJustification 9
-textAngle -90.000000
+textAngle 0.000000
 textAbsolute 0
 instNameLayer 1
 instIDLayer 1
